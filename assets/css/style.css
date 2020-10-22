@@ -4,3 +4,11 @@
   background-color: grey;
   width: 100%;
 }
+
+/* --------------- Offers ---------------  */
+/* https://blog.hubspot.com/website/center-div-css */
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
