@@ -33,3 +33,26 @@
   object-fit: cover;
 }
 
+/* --------------- Links ---------------  */
+
+/* Hero Image Section Links */
+
+ .hero-section a {
+  background-color: #646569;
+  color: #fff;
+  padding: 5px;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+ .hero-section a:hover {
+  background-color: #A87B4F;
+}
+
+.hero-section a:active {
+  background-color: #A87B4F;
+}
+
+
