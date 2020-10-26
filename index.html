@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description" content="Welcome to The Johnstown Castle Hotel. 4-Star Luxury Hotel only an hour and 30 minutes outside Dublin and one Wexford's finest hotels.">
+  <meta name="Description"
+    content="Welcome to The Johnstown Castle Hotel. 4-Star Luxury Hotel only an hour and 30 minutes outside Dublin and one Wexford's finest hotels.">
   <meta name="keywords" content="hotel,Wexford hotel, Leinster hotel">
   <title>Johnstown Castle Hotel | Wexford Hotels</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -17,10 +18,12 @@
   <!-- Navbar Menu Section -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand text-uppercase" href="#">Johnstown Castle Hotel </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <a class="navbar-brand text-uppercase d-none d-sm-block" id="large-brand" href="#">Johnstown Castle Hotel </a>
+      <a class="navbar-brand text-uppercase d-block d-sm-none" id="mobile-brand" href="#">JCH </a>
+      <button class="navbar-toggler text-uppercase" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+        Menu
       </button>
       <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -43,9 +46,12 @@
       <div class="col-12">
         <section class="hero-section jumbotron">
           <div id="cover-text">
-            <h1 class="text-uppercase">4-star Wexford Country Hotel</h1>
-            <h3><i>Luxury & Excellence</i></h3>
-            <h4 class="text-muted d-none d-sm-inline"><strong>Check out some of our great <a href="#offers">offers</a></strong></h4>
+            <h1 class="text-uppercase d-none d-sm-inline">4-star Wexford Country Hotel</h1>
+            <h3 class="d-none d-sm-block"><i>Luxury & Excellence</i></h3>
+            <h4 class="text-muted d-none d-sm-inline"><strong>Check out some of our great <a
+                  href="#offers">offers</a></strong></h4>
+            <h6 class="text-uppercase d-block d-sm-none">Johnstown Castle Hotel</h6>
+            <h6 class="d-block d-sm-none"><i>See our great <a href="#offers">offers</a></i></h6>
 
           </div>
 

@@ -55,4 +55,16 @@
   background-color: #A87B4F;
 }
 
+/* --------------- Menu ---------------  */
 
+#mobile-brand {
+    letter-spacing: 3px;
+    font-size: 23px;
+
+}
+
+/* Overriding rules in Bootstrap class */
+.navbar-toggler {
+  border: none;
+  font-size: 20px;
+}
