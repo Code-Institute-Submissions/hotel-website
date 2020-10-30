@@ -55,6 +55,10 @@
   background-color: #A87B4F;
 }
 
+.jumbotron {
+  padding-top: 10px;
+  line-height: 1.6;
+}
 /* --------------- Menu ---------------  */
 
 #mobile-brand {
@@ -96,13 +100,14 @@
   font-size: smaller;
   padding-top: 10px;
   font-style: italic;
+  text-align: center;
 }
 
 .small-text a{
   color: #A87B4F;
 }
 
-
-
-
-
+.button-position {
+  text-align: center;
+  padding: 5px;
+}
