@@ -76,3 +76,33 @@
     padding: 2px;
   }
 }
+
+/* --------------- Booking Form ---------------  */
+
+.booking-form form {
+  background-color: #646569;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+/* Traversy Media tutorial on building forms */
+.form-control {
+  margin-top: 6px;
+  color: #888888;
+  margin-bottom: 15px;
+}
+
+.small-text {
+  font-size: smaller;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.small-text a{
+  color: #A87B4F;
+}
+
+
+
+
+
