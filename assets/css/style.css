@@ -44,7 +44,7 @@
 
 /* Hero Image Section Links */
 
- .hero-section a {
+ .callout-section a {
   background-color: #646569;
   color: #fff;
   padding: 5px;
@@ -54,11 +54,11 @@
   opacity: 0.6;
 }
 
- .hero-section a:hover {
+ .callout-section a:hover {
   background-color: #A87B4F;
 }
 
-.hero-section a:active {
+.callout-section a:active {
   background-color: #A87B4F;
 }
 
@@ -110,9 +110,8 @@
   background-color: #A87B4F;
 }
 
-#mobile-brand {
-    letter-spacing: 3px;
-    font-size: 23px;
+#mobile-icon {
+    font-size: 30px;
 }
 
 #menu-brand {
@@ -174,4 +173,3 @@
   text-align: center;
   padding: 5px;
 }
-
