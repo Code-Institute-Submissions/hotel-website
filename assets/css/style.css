@@ -1,3 +1,10 @@
+
+/* --------------- All Elements ---------------  */
+
+* {
+  font-family: 'EB Garamond', serif;
+}
+
 /* --------------- Footer ---------------  */
 
 .page-footer {
@@ -61,14 +68,36 @@
 }
 
 /* --------------- Menu ---------------  */
+
+/* .navbar {
+  height: 80px;
+} */
 /* https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c#:~:text=You%20can%20specify%20the%20background,darker%20text%20color%20(black).&text=Of%20course%2C%20it's%20possible%20to,color%20with%20a%20little%20CSS%E2%80%A6 */
 .navbar-custom {
   background-color: #747479;
 }
 
+.nav-link {
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #A87B4F;
+  border: double;
+ }
+
+ .dropdown-center {
+   text-align: center;
+ } 
+
+
 .navbar-text-custom {
   color: #fff;
 }
+
 
 /* https://stackoverflow.com/questions/32508121/bootstrap-hovering-over-button-with-custom-color-not-changing-styling */
 .navbar-text-custom:hover {
