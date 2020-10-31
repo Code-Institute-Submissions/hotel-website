@@ -59,18 +59,52 @@
   padding-top: 10px;
   line-height: 1.6;
 }
+
 /* --------------- Menu ---------------  */
+/* https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c#:~:text=You%20can%20specify%20the%20background,darker%20text%20color%20(black).&text=Of%20course%2C%20it's%20possible%20to,color%20with%20a%20little%20CSS%E2%80%A6 */
+.navbar-custom {
+  background-color: #747479;
+}
+
+.navbar-text-custom {
+  color: #fff;
+}
+
+/* https://stackoverflow.com/questions/32508121/bootstrap-hovering-over-button-with-custom-color-not-changing-styling */
+.navbar-text-custom:hover {
+  color: #fff;
+}
+
+.main-icon {
+  color: #fff;
+  border-radius: 50%;
+  background-color: #A87B4F;
+}
 
 #mobile-brand {
     letter-spacing: 3px;
     font-size: 23px;
+}
 
+#menu-brand {
+  letter-spacing: 3px;
+  font-size: 23px;
+  color: #fff;
 }
 
 /* Overriding rules in Bootstrap class */
 .navbar-toggler {
   border: none;
   font-size: 20px;
+}
+
+.navbar-icon {
+  background-color: #747479;
+  border-radius: none;
+  color: #fff;
+  padding: 5px;
+  font-size: 1.5rem;
+
 }
 
 /* --------------- Media Queries ---------------  */
@@ -84,7 +118,7 @@
 /* --------------- Booking Form ---------------  */
 
 .booking-form form {
-  background-color: #646569;
+  background-color: #747479;
   padding: 15px;
   padding-bottom: 5px;
 }
@@ -111,3 +145,4 @@
   text-align: center;
   padding: 5px;
 }
+
