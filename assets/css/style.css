@@ -62,9 +62,15 @@
   background-color: #A87B4F;
 }
 
+
+/* --------------- Jumbotron ---------------  */
+
 .jumbotron {
-  padding-top: 10px;
+  padding-top: 20px;
   line-height: 1.6;
+  /* https://stackoverflow.com/questions/26179133/changing-text-in-jumbotron-without-altering-background-style */
+  background-color: rgba(100, 101, 105, 0.7);
+  color: #fff;
 }
 
 /* --------------- Menu ---------------  */
@@ -148,7 +154,7 @@
 .booking-form form {
   background-color: #747479;
   padding: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 /* Traversy Media tutorial on building forms */
@@ -173,3 +179,24 @@
   text-align: center;
   padding: 5px;
 }
+
+
+/* --------------- Containers ---------------  */
+
+/* Bootstrap lesson - updating callout */
+.main-container {
+  height: 100vh;
+  background: url(/assets/images/Johnstown-Castle_Castle-facade-lake-scaled-1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
