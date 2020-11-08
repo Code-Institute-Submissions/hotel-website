@@ -8,11 +8,87 @@
 /* --------------- Footer ---------------  */
 
 .page-footer {
-  background-color: grey;
+  background-color: #747479;
   width: 100%;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.footer-contact {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #A87B4F;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer-contact a:hover{
+  background-color: #d69f68;
+  text-decoration: none;
+}
+
+.footer-contact p{
+  margin-top: 7px;
+}
+
+.footer-contact p a {
+  background-color: #747479;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.footer-contact p a:hover {
+  background-color: #747479;
+  color: #A87B4F;
+}
+
+
+
+/* Taken from - https://wordpress.org/support/topic/center-align-social-media-icons-in-footer-need-css/ */
+.sm-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+
+.icon-bg-color {
+  color: #fff;
+  border-radius: 100%;
+  background-color: #A87B4F;
+}
+
+#footer-hr {
+  border: 1px solid #fff;
+  border-bottom: 0px;
+}
+
+.footer-copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-copyright a:hover {
+  color: #A87B4F;
 }
 
 /* --------------- Offers ---------------  */
+
+.offers-heading {
+  line-height: 2.0;
+  color: #545458;
+}
+
+
 /* https://blog.hubspot.com/website/center-div-css */
 .center {
   margin: auto;
@@ -31,13 +107,43 @@
 .card {
   width: 21.5em;
   margin: 0 auto;
+  background-color: #7f7f85;
+  border: none;
+  text-align: center;
 }
+
+.card-subheading {
+  color: #d69f68;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-body {
+  color: #fff;
+}
+
 
 /* https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width */
 .card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+
+.card-btn {
+  background-color: #A87B4F;
+  border-color: #fff;
+  border-style: double;
+  border-width: medium;
+}
+
+.card a:hover{
+  background-color: #d69f68;
+  border-color: #fff;
 }
 
 /* --------------- Links ---------------  */
@@ -270,6 +376,7 @@
 
 #about-heading {
   line-height: 2.0;
+  color: #545458;
 }
 
 .sub-heading {
@@ -281,6 +388,7 @@
   line-height: 1.8;
   font-size: 18px;
   text-align: center;
+  color: #68686d;
 }
 
 
