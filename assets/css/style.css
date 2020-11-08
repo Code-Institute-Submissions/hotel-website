@@ -45,17 +45,19 @@
 /* Hero Image Section Links */
 
  .callout-section a {
-  background-color: #646569;
+  background-color: transparent;
   color: #fff;
   padding: 5px;
   font-style: italic;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  opacity: 0.6;
+  opacity: 1;
 }
 
  .callout-section a:hover {
   background-color: #A87B4F;
+  border-style: double;
 }
 
 .callout-section a:active {
@@ -153,6 +155,19 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .sub-heading{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .sub-heading{
+    font-size: 15px;
+  }
+}
+
+
 /* --------------- Booking Form ---------------  */
 
 .booking-form form {
@@ -220,6 +235,9 @@
 }
 
 
+
+
+
 /* --------------- Alert Box ---------------  */
 
 .alert {
@@ -248,8 +266,27 @@
 
 }
 
+/* --------------- About Section ---------------  */
+
+#about-heading {
+  line-height: 2.0;
+}
+
+.sub-heading {
+  color: #A87B4F;
+  line-height: 1.0;
+}
+
+.about-info {
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: center;
+}
 
 
+.about-info a {
+  color: #A87B4F;
+}
 
 
 
