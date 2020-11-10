@@ -426,7 +426,7 @@
 
 /* --------------- Gallery ---------------  */
 .img-style {
-  padding: 5px;
+  padding: 2px;
 }
 
 .col-lg-3 {
@@ -439,4 +439,39 @@
   background-color: #A87B4F;
   width: 65px;
   height: 1px;
+}
+
+/* Overlay image effect code was taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity  */
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.zoom-icon {
+  color: #d69f68;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+
+.thumb:hover .image {
+  opacity: 0.3;
+}
+
+.thumb:hover .middle {
+  opacity: 1;
 }
