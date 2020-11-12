@@ -367,6 +367,18 @@
   color: #545458;
 } 
 
+.contact-container {
+  background: url(/assets/images/books.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  margin: auto;
+  padding: 25px;
+}
+
+
 
 
 
@@ -474,4 +486,77 @@
 
 .thumb:hover .middle {
   opacity: 1;
+}
+
+/* --------------- Contact (Form) ---------------  */
+
+.contact-form {
+  margin: auto;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  background: rgb(116, 116, 121, 0.9);
+  font-size: 18px;
+  
+}
+
+.contact-container .jumbotron {
+  margin: auto;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  height: 100%;
+  border-style: double;
+  border-width: medium;
+  background: rgb(168, 123, 79, 0.4);
+}
+
+
+
+.contact-info {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.contact-text a {
+  color: #fff;
+}
+
+.contact-text a:hover {
+  color: #d69f68;
+  text-decoration: none;
+}
+
+/* Remove blue outline input/textarea - https://www.codegrepper.com/code-examples/css/change+border+highlight+color+on+an+input+text+element */
+input:focus { 
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+}
+
+.divider-style {
+  background-color: #fff;
+}
+
+.submit-button {
+  background-color: #A87B4F;
+  border-style: double;
+  border-width: medium;
+  border-color: #fff;
+}
+
+.contact-form button:hover {
+  background-color: #d69f68;
+  border-color: #fff;
+}
+
+.form-text {
+  color: #fff !important;
+  font-style: italic !important;
 }
