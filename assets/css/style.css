@@ -329,7 +329,7 @@
 /* Bootstrap lesson - updating callout */
 .main-container {
   height: 100vh;
-  background: url(assets/images/johnstown-castle-main-lake.jpg) no-repeat center center fixed; 
+  background: url(/../assets/images/johnstown-castle-main-lake.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
