@@ -87,6 +87,15 @@ on small screens there are one columns with 12 rows.
 
 #### Colour
 - ![#545458](https://via.placeholder.com/15/545458/000000?text=+) `#545458`
+- ![#A87B4F](https://via.placeholder.com/15/A87B4F/000000?text=+) `#A87B4F`
+- ![#68686d](https://via.placeholder.com/15/68686d/000000?text=+) `#68686d`
+- ![#d69f68](https://via.placeholder.com/15/d69f68/000000?text=+) `#d69f68`
+- ![#888888](https://via.placeholder.com/15/888888/000000?text=+) `#888888`
+- ![#747479](https://via.placeholder.com/15/747479/000000?text=+) `#747479`
+- ![#7f7f85](https://via.placeholder.com/15/7f7f85/000000?text=+) `#7f7f85`
+- ![#fff](https://via.placeholder.com/15/fff/000000?text=+) `#fff`
+- ![#000](https://via.placeholder.com/15/000/000000?text=+) `#000`
+
 
 
 
