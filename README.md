@@ -64,6 +64,18 @@ The Home page contains all the information for commercial purposes (booking, off
 that way specifically with the business objectives in mind. The supplemenatary information is contained in the
 Gallery and Contact page. 
 
+### Skeleton 
+I designed the general structure of the site using [Balsamiq] (https://balsamiq.com) to create a wireframe for each of the three pages on large screens.
+
+- [Home Page] (/assets/images/home-wireframe.png)
+- [Gallery Page] (/assets/images/gallery-wireframe.png)
+- [Contact Page] (/assets/images/contact-wireframe.png)
+
+All pages contain the same navigation menu and footer. The navigation menu is fixed to the top. 
+The Home page is deivided into three sections - Main Section (which includes a callout and booking form), About Section and Offers Section.
+The Gallery page is divided into three sections - a Title Section, Image Gallery Section and Bootom Section. 
+The Contact page is divided into one main Contact section which was divided into two seperate sections of a Contact Form and Contact Section. 
+
 
 
 
