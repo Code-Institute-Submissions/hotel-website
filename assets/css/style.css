@@ -356,6 +356,7 @@
   border-style: double;
   color: #d69f68;
   background-color: #545458;
+  object-fit: cover;
 }
 
 .bottom-container {

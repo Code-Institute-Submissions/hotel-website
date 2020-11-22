@@ -73,12 +73,20 @@ I designed the general structure of the site using [Balsamiq](https://balsamiq.c
 
 All pages contain the same navigation menu and footer. The navigation menu is fixed to the top. 
 The Home page is deivided into three sections - Main Section (which includes a callout and booking form), About Section and Offers Section.
-The Gallery page is divided into three sections - a Title Section, Image Gallery Section and Bootom Section. 
+The Gallery page is divided into three sections - a Title Section, Image Gallery Section and Bottom Section. 
 The Contact page is divided into one main Contact section which was divided into two seperate sections of a Contact Form and Contact Section. 
 
+#### Responsive Design
+- On the Home page, for small screens the alert box is removed. In the Offers Section, images are removed from the cards which are stacked vertically. 
+On medium screens, everything is displayed as in large except in Offers Section two of the cards are stacked vertically on top of one card.
+- On the Gallery page, on large screens there is an image gallery of four columns in three rows. On medium screens there are two columns in six rows. 
+on small screens there are one columns with 12 rows.
+- On the Contact page, for small screens the Contact section is removed. Medium and large screens dispaly same information.
 
+### Surface
 
-
+#### Colour
+- ![#545458](https://via.placeholder.com/15/545458/000000?text=+) '#545458'
 
 
 
