@@ -65,11 +65,11 @@ that way specifically with the business objectives in mind. The supplemenatary i
 Gallery and Contact page. 
 
 ### Skeleton 
-I designed the general structure of the site using [Balsamiq] (https://balsamiq.com) to create a wireframe for each of the three pages on large screens.
+I designed the general structure of the site using [Balsamiq](https://balsamiq.com) to create a wireframe for each of the three pages on large screens.
 
-- [Home Page] (/assets/images/home-wireframe.png)
-- [Gallery Page] (/assets/images/gallery-wireframe.png)
-- [Contact Page] (/assets/images/contact-wireframe.png)
+- [Home Page](/assets/images/home-wireframe.png)
+- [Gallery Page](/assets/images/gallery-wireframe.png)
+- [Contact Page](/assets/images/contact-wireframe.png)
 
 All pages contain the same navigation menu and footer. The navigation menu is fixed to the top. 
 The Home page is deivided into three sections - Main Section (which includes a callout and booking form), About Section and Offers Section.
