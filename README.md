@@ -86,7 +86,7 @@ on small screens there are one columns with 12 rows.
 ### Surface
 
 #### Colour
-- ![#545458](https://via.placeholder.com/15/545458/000000?text=+) '#545458'
+- ![#545458](https://via.placeholder.com/15/545458/000000?text=+) `#545458`
 
 
 
