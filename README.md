@@ -57,6 +57,13 @@ This website would be used by prospective customers to learn more about the hote
 - Contact callout information section 
 - Footer - contact information, social media links, copyright, Terms & Conditions, Privacy Policy
 
+### Structure 
+
+The site contains three pages - Home, Gallery and Contact. Each page is designed in linear style.
+The Home page contains all the information for commercial purposes (booking, offers) and is designed 
+that way specifically with the business objectives in mind. The supplemenatary information is contained in the
+Gallery and Contact page. 
+
 
 
 

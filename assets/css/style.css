@@ -1,9 +1,8 @@
-
-
 /* --------------- All Elements ---------------  */
 
 * {
   font-family: 'EB Garamond', serif;
+
 }
 
 /* --------------- Footer ---------------  */
@@ -29,12 +28,12 @@
   text-decoration: none;
 }
 
-.footer-contact a:hover{
+.footer-contact a:hover {
   background-color: #d69f68;
   text-decoration: none;
 }
 
-.footer-contact p{
+.footer-contact p {
   margin-top: 7px;
 }
 
@@ -142,7 +141,7 @@
   border-width: medium;
 }
 
-.card a:hover{
+.card a:hover {
   background-color: #d69f68;
   border-color: #fff;
 }
@@ -151,7 +150,7 @@
 
 /* Hero Image Section Links */
 
- .callout-section a {
+.callout-section a {
   background-color: transparent;
   color: #fff;
   padding: 5px;
@@ -162,7 +161,7 @@
   opacity: 1;
 }
 
- .callout-section a:hover {
+.callout-section a:hover {
   background-color: #A87B4F;
   border-style: double;
 }
@@ -191,6 +190,7 @@
 .active {
   text-decoration: underline;
 }
+
 /* https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c#:~:text=You%20can%20specify%20the%20background,darker%20text%20color%20(black).&text=Of%20course%2C%20it's%20possible%20to,color%20with%20a%20little%20CSS%E2%80%A6 */
 .navbar-custom {
   background-color: #747479;
@@ -206,11 +206,11 @@
   color: #fff;
   background-color: #A87B4F;
   border: double;
- }
+}
 
- .dropdown-center {
-   text-align: center;
- } 
+.dropdown-center {
+  text-align: center;
+}
 
 
 .navbar-text-custom {
@@ -230,7 +230,7 @@
 }
 
 #mobile-icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 #menu-brand {
@@ -251,7 +251,6 @@
   color: #fff;
   padding: 5px;
   font-size: 1.5rem;
-
 }
 
 /* --------------- Media Queries ---------------  */
@@ -263,13 +262,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .sub-heading{
+  .sub-heading {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 993px) {
-  .sub-heading{
+  .sub-heading {
     font-size: 15px;
   }
 }
@@ -285,7 +284,7 @@
 }
 
 .booking-form form a:hover {
-  color:  #d69f68;
+  color: #d69f68;
 }
 
 /* Traversy Media tutorial on building forms */
@@ -302,7 +301,7 @@
   text-align: center;
 }
 
-.small-text a{
+.small-text a {
   color: #fff;
   text-decoration: underline;
 }
@@ -315,7 +314,7 @@
 .booking-form button {
   background-color: #A87B4F;
   border-color: #fff;
-  border-style: double; 
+  border-style: double;
   border-width: medium;
 }
 
@@ -330,7 +329,7 @@
 /* Bootstrap lesson - updating callout */
 .main-container {
   height: 100vh;
-  background: url(../images/johnstown-castle-lake-main.jpg) no-repeat center center fixed; 
+  background: url(../images/johnstown-castle-lake-main.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -341,12 +340,12 @@
   justify-content: center;
 }
 
-.gallery-container{
+.gallery-container {
   padding: 40px;
   /* https://stackoverflow.com/questions/28081556/equally-space-3-images-in-a-row */
-  display:flex;
-  justify-content:space-around;
-  flex-wrap:nowrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
   border-style: double;
   color: #A87B4F;
   background-color: black;
@@ -366,17 +365,21 @@
 .title-container h1 {
   line-height: 2.0;
   color: #545458;
-} 
+  padding-top: 40px;
+}
 
 .contact-container {
-  background: url(../images/johnstown-castle-books.jpg) no-repeat center center fixed; 
+  background: url(../images/johnstown-castle-books.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   margin: auto;
-  padding: 25px;
+  padding-top: 85px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 
@@ -498,7 +501,7 @@
   color: #fff;
   background: rgb(116, 116, 121, 0.9);
   font-size: 18px;
-  
+
 }
 
 .contact-container .jumbotron {
@@ -529,13 +532,13 @@
 }
 
 /* Remove blue outline input/textarea - https://www.codegrepper.com/code-examples/css/change+border+highlight+color+on+an+input+text+element */
-input:focus { 
+input:focus {
   outline: none !important;
   border: 1px solid #A87B4F !important;
   box-shadow: 0 0 5px #A87B4F !important;
 }
 
-textarea:focus { 
+textarea:focus {
   outline: none !important;
   border: 1px solid #A87B4F !important;
   box-shadow: 0 0 5px #A87B4F !important;
@@ -564,7 +567,42 @@ textarea:focus {
 
 /* --------------- Button Focus ---------------  */
 
-button:focus {
+.main-container button:focus {
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+  background-color: #A87B4F !important;
+}
+
+.main-container button:active {
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+  background-color: #A87B4F !important;
+}
+
+.offers-container a:focus {
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+  background-color: #A87B4F !important;
+}
+
+.main-container a:active {
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+  background-color: #A87B4F !important;
+}
+
+.contact-container button:focus {
+  outline: none !important;
+  border: 1px solid #A87B4F !important;
+  box-shadow: 0 0 5px #A87B4F !important;
+  background-color: #A87B4F !important;
+}
+
+.contact-container button:active {
   outline: none !important;
   border: 1px solid #A87B4F !important;
   box-shadow: 0 0 5px #A87B4F !important;
