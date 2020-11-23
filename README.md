@@ -151,7 +151,7 @@ The design features and inspiration for this website was primarily from these tw
 - [The Johnstown Estate](https://www.thejohnstownestate.com/)
 - [The Witchery](https://www.thewitchery.com/)
 
-### Information & Images
+### Information and Images
 Information and images about the real Johnstown Castle was accesed from these sources:
 - [The Johnstown Castle](https://johnstowncastle.ie/)
 - [Wikipedia](https://en.wikipedia.org/wiki/Johnstown_Castle)
