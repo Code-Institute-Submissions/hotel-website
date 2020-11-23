@@ -9,7 +9,7 @@
     * [Strategy](#Strategy)
     * [Business Objectives](#Business-Objectives)
     * [User Stories](#User-Stories)
-    * [Scope/Features](#Scope/Features)
+    * [Scope & Features](#Scope-&-Features)
         * [Features](#Features) 
             * [Home Page](#Home-Page)
             * [Gallery Page](#Gallery-Page)
