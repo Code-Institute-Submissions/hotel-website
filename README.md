@@ -151,8 +151,12 @@ The site was built using [VS Code](https://code.visualstudio.com/), the site fea
 
 ### Validation
 Using [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML on each page: 
-- On the Home page there were two errors - one for a diplicate attribute which I removed, the second for a bad value for attribute type which I changed to type "submit".
+- On all the pages there was an error for a diplicate attribute which I removed. 
+- On the Home page , there was an error for a bad value for attribute type which I changed to type "submit".  
+- On Contact page there was an error for a smaller element which I removed. There was also an error for attribute aria-describedby which I also removed. 
 
+Using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS:
+- Error found concerning class navbar-icon, border-radius was set to none which wasn't recognized. This was removed and error was resolved.
 
 
 
