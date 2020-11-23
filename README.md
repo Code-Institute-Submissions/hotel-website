@@ -150,7 +150,8 @@ The site was built using [VS Code](https://code.visualstudio.com/), the site fea
 [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was also used to test responsiveness of different screen sizes. Site was tested across multiple browsers and on Github pages where the site was hosted.
 
 ### Validation
-
+Using [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML on each page: 
+- On the Home page there were two errors - one for a diplicate attribute which I removed, the second for a bad value for attribute type which I changed to type "submit".
 
 
 
