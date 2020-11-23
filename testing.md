@@ -4,13 +4,13 @@
 
 ### Buttons
 
-| Component | Function | Test Outcome | Fix |
+| Component | Function | Outcome | Fix |
 | -------------- | ------------------- | ---------------- | --- |
 | "Book Now" Buttons on Home page  | Change colour after clicked | Success | N/A |
 | "Submit" Button on Contact page | Change colour after clicked | Success | N/A |
 
 ### Links 
-| Component | Function | Test Outcome | Fix |
+| Component | Function | Outcome | Fix |
 | -------------- | ------------------- | ---------------- | --- |
 | (All pages)  Navbar logo link )  | Take user to the Home Page | Success | N/A |
 | (All pages) Navbar page links (Home, Gallery etc.) | Take user to the respectve page  | Success | N/A |
@@ -26,7 +26,7 @@
 | (Contact page) Contact Info Section Address link | Take user to the Google maps location of Hotel in new tab | Success | N/A |
 | (Contact page) Contact Info Section Email link| Open default email client of user  | Success | N/A |
 
-
+## Hover/Focus effects
 
 
 
