@@ -45,23 +45,28 @@
 I conducted usability testing based on the goals of my potential users as outlined in my user stories. This involved conducting user simulations of the site in these scenarios.
 
 > As a prospective customer, I want to use the booking system on the site so I can book a stay at the hotel.
+
 When the user visits the site they are immediately presented with a simple to use booking form. 
 
 > As a prospective customer, I want to learn more (what is looks like, services etc.) about the hotel in general so I can decide whether to book a stay.
+
 When the user visits the site they are immediately presented with information in callout section describing the hotel. The main background image shows what the hotel looks like. 
 When the user scrolls down there is an About section providing information about the hotel and what services are available. 
 If the user wishes to view more images of the hotel, the Gallery page (which is easily navigable from the Home page ) displays multiple images.
 
 > As a prospective customer, I want to learn about the offers available at the hotel so I can decide whether to book a stay. 
+
 When the user visits the site there is a link in the callout section to the Offers section. In the offers section the user is presented
 with three offers. Each offer has a description and a corresopnding booking button which the user can use to book an offer. 
 
 > As a paid customer, I want to learn more (what is looks like, services etc.) about the hotel in general to ehance my stay.
+
 When the user visits the site they are immediately presented with information in callout section describing the hotel. The main background image shows what the hotel looks like. 
 When the user scrolls down there is an About section providing information about the hotel and what services are available. 
 If the user wishes to view more images of the hotel, the Gallery page (which is easily navigable from the Home page ) displays multiple images.
 
 > As a prospective/paid customer, I want to contact the hotel as I have specific enquiries that I need answered. 
+
 When the user visits the site, there is a link in the navigation menu to the Contact page. On the contact page there is a Contact form which the user can 
 fill out. Alongside that all the contact details are viewable in the Contact Info section. On the homepage, there is also a link to the Contact page in the Alert box. 
 On all pages, in the footer, there is also contact details and a link to the Contact page. 
