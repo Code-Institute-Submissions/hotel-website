@@ -160,6 +160,26 @@ Using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to vali
 
 ### Manual testing
 
+Manual testing was carried out on the site - full description of the manual tests conducted are available [here](https://github.com/seamusmacg/hotel-website/blob/master/testing.md).
+
+## Deployment
+
+The site was deployed through Github pages. All files were submitted to Github from the terminal on Gitpod. 
+
+https://seamusmacg.github.io/hotel-website/
+
+## Credits 
+
+- [W3schools](https://www.w3schools.com/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Traversy Media - HTML & CSS Course](https://www.udemy.com/course/modern-html-css-from-the-beginning/)
+- I would like to thank my mentor Adegbenga Adeye for all his guidance and help throughout this project. 
+
+
+
+
+
+
 
 
 

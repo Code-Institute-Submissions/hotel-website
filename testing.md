@@ -71,6 +71,22 @@ When the user visits the site, there is a link in the navigation menu to the Con
 fill out. Alongside that all the contact details are viewable in the Contact Info section. On the homepage, there is also a link to the Contact page in the Alert box. 
 On all pages, in the footer, there is also contact details and a link to the Contact page. 
 
+## Responiveness
+
+The responsiveness of the site was tested using Google Chrome Developer Tools. This was achieved by testing responsiveness on a variety of screen sizes (large, medium, small and extra small). 
+
+| Component | Result | Outcome | Fix |
+| -------------- | ------------------- | ---------------- | --- |
+| Text | Should be readable and clear for each screen size | Success | N/A |
+| Images | Maintain ratio at smaller sizes and not be stretched/distorted | Success | N/A |
+| Structure | Sections should be structured properly with proper spacing between features  | Success | N/A |
+| Functionality | Buttons, links/navigation should work across screen sizes  | Success | N/A |
+
+## Github Pages
+
+All the same tests applied in the local environment were also sucessfully applied on the hosted site (Github pages). 
+
+
 
 
 
