@@ -96,6 +96,68 @@ on small screens there are one columns with 12 rows.
 - ![#fff](https://via.placeholder.com/15/fff/000000?text=+) `#fff`
 - ![#000](https://via.placeholder.com/15/000/000000?text=+) `#000`
 
+The site uses an assortment of colours. The predominant colour scheme is a combination of white, gold and grey. These colours are used throughout the site (inlcuding the site's logo, font and background colors). Many of
+the same colours are resued in different sections of the site with lighter or darker versions of the colours used for contrast purposes. On the Gallery page, a black background 
+colour is utilised in the photo gallery to contrast the brightness of the images. 
+
+### Typograpy 
+
+[EB Garamond](https://fonts.google.com/specimen/EB+Garamond)
+
+This font was used for all elememts on the site. The font was chosen as it aligns with the luxurious aspirations of the hotel. 
+
+## Technolgies & Libraries
+
+- !["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5) - [HTML 5](https://www.w3.org/TR/html52/)  is a markup language that was used displaying content of the site.
+- !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3) - [CSS](https://www.w3.org/standards/webdesign/htmlcss.html) is a style sheet language used for presenting/styling the content of the site. 
+- !["Bootstrap Badge"](https://img.shields.io/badge/Bootstrap-4-563D7C?logo=bootstrap) - [Bootstrap](https://getbootstrap.com/) is an open-source framework aimed at responsive, mobile-first front-end web development. This was used throughout the site to create the overall structure.
+- [Google Fonts](https://fonts.google.com/) - Google Fonts is a library of free licensed font families that used to generate to the EB Garamond Font
+- !["Fontawesome Badge"](https://img.shields.io/badge/Font_Awesome-5.14-339AF0?logo=font-awesome) - [Font Awesome](https://fontawesome.com/) is a font and icon toolkit that was used to generate the icons use throughout the site. 
+- !["Git Badge"](https://img.shields.io/badge/Git-000?logo=git) - [Git][https://git-scm.com/] is an open source distributed version control system that was used to track any changes made to the source code. 
+- !["Github Badge"](https://img.shields.io/badge/Github-000?logo=github) - [Github](https://github.com/) is a platform for hosting software development and version control using Git. This was used to host and deploy this site. 
+
+## Resources
+
+### Design
+The design features and inspiration for this website was primarily from these two websites:
+- [The Johnstown Estate](https://www.thejohnstownestate.com/)
+- [The Witchery](https://www.thewitchery.com/)
+
+### Information & Images
+Information and images about the real Johnstown Castle was accesed from these sources:
+- [The Johnstown Castle](https://johnstowncastle.ie/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Johnstown_Castle)
+- [Pat Sheridan Photography](https://patsheridan.files.wordpress.com/2011/10/johnstown-castle-wexford-copyvv.jpg) 
+- [RCME](http://www.rmce.ie/johnstown-castle-co-wexford.html)
+- [The Witchery Gallery](https://www.thewitchery.com/gallery)
+- [Irish Heritage trust](http://www.irishheritagetrust.ie/about/what-we-do/johnstown-castle/)
+- [Visit Wexford](https://www.visitwexford.ie/directory/irish-agricultural-museum-johnstown-castle-gardens/)
+- [Wexford Trails](https://wexfordtrails.ie/Directory/johnstown-castle/)
+- [Tripadvisor](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186640-d1765631-i414212611-Johnstown_Castle-County_Wexford.html)
+- [Hook Peninsula](https://hookpeninsula.com/guide/johnstown-castle)
+- [Theodora](https://theodora.com/wfb/photos/ireland/ireland_photos_24.html)
+
+### Tools
+- [Gitpod](https://www.gitpod.io/) - IDE used for committing code to Github
+- [VS Code](https://code.visualstudio.com/) - Primary IDE used for writing and testing source code. 
+- [W3C Markup Validation Service](https://validator.w3.org/) - Used for validating HTML source code. 
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for validating CSS source code.
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Used to test the responsiveness of site on different screen sizes.
+- [Balsamiq](https://balsamiq.com/) - Mockup application tool used to draw wireframes for overall site structure. 
+
+## Testing
+The site was built using [VS Code](https://code.visualstudio.com/), the site features were tested with real-time feedback using a plugin called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+[Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was also used to test responsiveness of different screen sizes. Site was tested across multiple browsers and on Github pages where the site was hosted.
+
+### Validation
+
+
+
+
+
+
+
+
 
 
 

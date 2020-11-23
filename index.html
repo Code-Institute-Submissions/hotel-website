@@ -1,308 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Head Section -->
 
-<!-- Head Section -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Description" content="Welcome to The Johnstown Castle Hotel. 4-Star Luxury Hotel only an hour and 30 minutes outside Dublin and one Wexford's finest hotels." />
+        <meta name="keywords" content="hotel,Wexford hotel, Leinster hotel" />
+        <title>Johnstown Castle Hotel | Wexford Hotels</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/87798f37e6.js" crossorigin="anonymous"></script>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description"
-    content="Welcome to The Johnstown Castle Hotel. 4-Star Luxury Hotel only an hour and 30 minutes outside Dublin and one Wexford's finest hotels.">
-  <meta name="keywords" content="hotel,Wexford hotel, Leinster hotel">
-  <title>Johnstown Castle Hotel | Wexford Hotels</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/87798f37e6.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!-- Navbar Menu Section -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-      <a class="navbar-brand text-uppercase d-none d-sm-block navbar-text-custom" href="#">Johnstown
-        Castle Hotel <i class="fab fa-fort-awesome-alt main-icon"></i></a>
-      <a class="navbar-brand text-uppercase d-block d-sm-none" href="#"><i class="fab fa-fort-awesome-alt main-icon"
-          id="mobile-icon"></i></a>
-      <button class="navbar-toggler text-uppercase" id="menu-brand" type="button" data-toggle="collapse"
-        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-icon"><i class="fas fa-bars"></i></span>
-        Menu
-      </button>
-      <div class="collapse navbar-collapse text-uppercase dropdown-center" id="navbarNav" id="mainNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Main Section -->
-  <div class="container-fluid main-container">
-    <section class="main-section">
-      <!-- Alert Section -->
-      <div class="row">
-        <div class="col-12 d-none d-sm-block">
-          <div class="alert alert-warning text-center">
-            <hr class="alert-bar">
-            <h4 class="alert-heading"><strong>Covid-19 Information Notice</strong></h4>
-            <p>In light of the current restrictions, it is with regret that we are closing our
-              doors
-              for our 2020. <br> <a href="contact.html">Contact us for more information.</a></p>
-            <hr class="alert-bar">
-          </div>
-        </div>
-      </div>
-
-      <!-- Callout Section -->
-      <div class="row">
-        <div class="col-sm-8">
-          <section class="callout-section jumbotron text-center">
-            <div id="cover-text">
-              <h1 class="jumbotron-header text-uppercase d-none d-sm-inline">4-star Wexford Country Hotel</h1>
-              <h3 class="d-none d-sm-block"><i>Luxury & Excellence</i></h3>
-              <h4 class="d-none d-lg-block">See our great <strong><a href="#offers">offers</a></strong></h4>
-              <h1 class="text-uppercase d-block d-sm-none">Johnstown Castle Hotel</h1>
-              <h5 class="d-block d-sm-none"><i>See our great <a href="#offers">offers</a></i></h5>
-              <h6 class="d-block d-sm-none"><a href="#">Covid-19 Information Notice</a></h6>
-
-            </div>
-          </section>
-        </div>
-
-        <!-- Booking Form -->
-        <div class="col-sm-4">
-          <section class="booking-form">
-            <form>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <span class="form-label">Arrive</span>
-                    <input class="form-control" type="date" id="arrivalDate" required>
-                  </div>
+    <body>
+        <!-- Navbar Menu Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+                <a class="navbar-brand text-uppercase d-none d-sm-block navbar-text-custom" href="#">Johnstown Castle Hotel <i class="fab fa-fort-awesome-alt main-icon"></i></a>
+                <a class="navbar-brand text-uppercase d-block d-sm-none" href="#"><i class="fab fa-fort-awesome-alt main-icon" id="mobile-icon"></i></a>
+                <button class="navbar-toggler text-uppercase" id="menu-brand" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-icon"><i class="fas fa-bars"></i></span>
+                    Menu
+                </button>
+                <div class="collapse navbar-collapse text-uppercase dropdown-center" id="navbarNav" id="mainNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <span class="form-label">Depart</span>
-                    <input class="form-control" type="date" id="departureDate" required>
-                  </div>
+            </nav>
+        </header>
+
+        <!-- Main Section -->
+        <div class="container-fluid main-container">
+            <section class="main-section">
+                <!-- Alert Section -->
+                <div class="row">
+                    <div class="col-12 d-none d-sm-block">
+                        <div class="alert alert-warning text-center">
+                            <hr class="alert-bar" />
+                            <h4 class="alert-heading"><strong>Covid-19 Information Notice</strong></h4>
+                            <p>
+                                In light of the current restrictions, it is with regret that we are closing our doors for our 2020. <br />
+                                <a href="contact.html">Contact us for more information.</a>
+                            </p>
+                            <hr class="alert-bar" />
+                        </div>
+                    </div>
                 </div>
 
-              </div>
-              <div class="button-position">
-                <button type="book" class="btn btn-primary text-uppercase">Book Now</button>
-              </div>
-              <p class="small-text">Reservations can also be made with <a href="https://www.booking.com">Booking.com</a>
-              </p>
+                <!-- Callout Section -->
+                <div class="row">
+                    <div class="col-sm-8">
+                        <section class="callout-section jumbotron text-center">
+                            <div id="cover-text">
+                                <h1 class="jumbotron-header text-uppercase d-none d-sm-inline">4-star Wexford Country Hotel</h1>
+                                <h3 class="d-none d-sm-block"><i>Luxury & Excellence</i></h3>
+                                <h4 class="d-none d-lg-block">
+                                    See our great <strong><a href="#offers">offers</a></strong>
+                                </h4>
+                                <h1 class="text-uppercase d-block d-sm-none">Johnstown Castle Hotel</h1>
+                                <h5 class="d-block d-sm-none">
+                                    <i>See our great <a href="#offers">offers</a></i>
+                                </h5>
+                                <h6 class="d-block d-sm-none"><a href="#">Covid-19 Information Notice</a></h6>
+                            </div>
+                        </section>
+                    </div>
 
-
-            </form>
-          </section>
+                    <!-- Booking Form -->
+                    <div class="col-sm-4">
+                        <section class="booking-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Arrive</span>
+                                            <input class="form-control" type="date" id="arrivalDate" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Depart</span>
+                                            <input class="form-control" type="date" id="departureDate" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-position">
+                                    <button type="book" class="btn btn-primary text-uppercase">Book Now</button>
+                                </div>
+                                <p class="small-text">Reservations can also be made with <a href="https://www.booking.com">Booking.com</a></p>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-    </section>
-  </div>
 
-  <!-- About Section -->
-  <div class="container about-container">
-    <section class="about">
-      <div class="row">
-        <div class="col-12 col-md-12 my-4">
-          <h2 class="text-uppercase text-center" id="about-heading">The Johnstown Castle Hotel</h2>
-          <!-- Borrowed text from https://www.thejohnstownestate.com/ -->
-          <h4 class="text-uppercase sub-heading text-center d-none d-sm-block">Best Rate Guarantee | Free Wifi | No
-            Booking Fee |
-            Free Parking | Free Cancellation </h4>
+        <!-- About Section -->
+        <div class="container about-container">
+            <section class="about">
+                <div class="row">
+                    <div class="col-12 col-md-12 my-4">
+                        <h2 class="text-uppercase text-center" id="about-heading">The Johnstown Castle Hotel</h2>
+                        <!-- Borrowed text from https://www.thejohnstownestate.com/ -->
+                        <h4 class="text-uppercase sub-heading text-center d-none d-sm-block">Best Rate Guarantee | Free Wifi | No Booking Fee | Free Parking | Free Cancellation</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about-info">
+                            <p>
+                                The Johnstown Castle Hotel is a 4-star award winning luxury hotel where victorian splendour meets modern day luxury. Situated on an estate with a a long and colourful history stretching over 800 years.
+                                <a href="https://goo.gl/maps/kL7BALUWu7kmevtL6" target="_blank">Located</a> only a few miles outside of Wexford town in Ireland's south east, it is a place of great romantic charm and tranquility with
+                                spectacular lake walks and walled gardens. The current building is built in the Gothic Revival style but original building dates all the way back to the 12th century.
+                            </p>
+                            <p>
+                                The Castle has 192 deluxe <a href="#">bedrooms</a>, a business <a href="#">conference centre</a> which can accomodate up to 500 delegates and an exquisite <a href="#">wedding venue</a> in the charming
+                                classical style but with all modern comforts. The castle grounds contain acres of beautifully restored gardens that make the perfect backdrop for capturing those precious wedding memories.
+                            </p>
+                            <p>
+                                Situated in Ireland's famous Sunny South East region the Castle is also home to our award winning <a href="#">Spa Leisure Centre</a> with a 25 metre pool and state of the art Gym. Our spa was created to offer
+                                an atmosphere and elegance with lots of treatment rooms and a wide variety of treatments available
+                            </p>
+                            <p>
+                                In addition, the hotel is also home to the <a href="#">The Moat</a> which is set in the Castle's original dining room. Our team of top trained chefs have designed a menu full of flavour with organic
+                                ingredients from local and sustainable sources.
+                            </p>
+                            <p>Enjoy one of our <a href="#offers">Special Offers</a> below.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="about-info">
-            <p>
-              The Johnstown Castle Hotel is a 4-star award winning luxury hotel where victorian splendour meets modern
-              day
-              luxury. Situated on an estate with a a long and colourful history stretching over 800 years. <a
-                href="https://goo.gl/maps/kL7BALUWu7kmevtL6" target="_blank">Located</a> only a few
-              miles
-              outside of Wexford town in Ireland's south east, it is a place of great romantic charm and tranquility
-              with
-              spectacular lake walks and walled gardens. The current building is built in the Gothic Revival style but
-              original building dates all the way back to the 12th century.
-            </p>
-            <p>
-              The Castle has 192 deluxe <a href="#">bedrooms</a>, a business <a href="#">conference centre</a> which can
-              accomodate up to 500 delegates and an exquisite <a href="#">wedding venue</a> in the charming classical
-              style but with all modern comforts. The castle grounds contain acres of beautifully restored gardens that
-              make the perfect backdrop for capturing those precious wedding memories.
-            </p>
-            <p>
-              Situated in Ireland's famous Sunny South East region the Castle is also home to our award winning <a
-                href="#">Spa Leisure Centre</a> with a 25 metre pool and state of the art Gym. Our spa was created to
-              offer an atmosphere and elegance with lots of treatment rooms and a wide variety of treatments available
-            </p>
-            <p>
-              In addition, the hotel is also home to the <a href="#">The Moat</a> which is set in the Castle's original
-              dining room. Our team of top trained chefs have designed a menu full of flavour with organic ingredients
-              from local and sustainable sources.
-            </p>
-            <p>
-              Enjoy one of our <a href="#offers">Special Offers</a> below.
-            </p>
-          </div>
-        </div>
-      </div>
+        <hr class="block-divider" />
 
-    </section>
-  </div>
-  <hr class="block-divider">
-
-  <!-- Offers Section -->
-  <div class="container offers-container">
-    <section class="offers">
-      <div class="row">
-        <div class="col-12 my-4">
-          <h2 class="text-uppercase text-center offers-heading" id="offers">Offers</h2>
-          <h4 class="text-uppercase text-center sub-heading d-none d-sm-block"> Affordable | Unmatched Experience |
-            Atmosphere | Enterainment | Luxury </h4>
+        <!-- Offers Section -->
+        <div class="container offers-container">
+            <section class="offers">
+                <div class="row">
+                    <div class="col-12 my-4">
+                        <h2 class="text-uppercase text-center offers-heading" id="offers">Offers</h2>
+                        <h4 class="text-uppercase text-center sub-heading d-none d-sm-block">Affordable | Unmatched Experience | Atmosphere | Enterainment | Luxury</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto col-lg-4">
+                        <div class="card mt-4" style="width: 18rem;">
+                            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-drawing-room.jpg" alt="Johnstown Castle Hotel dining room" />
+                            <div class="card-body">
+                                <h5 class="card-title">Best Available Rate</h5>
+                                <p class="card-text card-subheading">Breakfast Included</p>
+                                <p class="card-text card-body">Enjoy a luxurious overnight stay with breakfast included & full access to our award winning spa leisure centre.</p>
+                                <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mx-auto col-lg-4">
+                        <div class="card mt-4" style="width: 18rem;">
+                            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-hotel-room.jpg" alt="Johnstown Castle Hotel room" />
+                            <div class="card-body">
+                                <h5 class="card-title">Weekend Getaway</h5>
+                                <p class="card-text card-subheading">Enjoy a relaxing weekend</p>
+                                <p class="card-text card-body">Unwind with our weekend package which provides full access to all our premium amenities including all meals.</p>
+                                <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mx-auto col-lg-4">
+                        <div class="card mt-4 mb-4" style="width: 18rem;">
+                            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-snow.jpg" alt="Johnstown Castle Hotel in snow" />
+                            <div class="card-body">
+                                <h5 class="card-title">Winter Experience</h5>
+                                <p class="card-text card-subheading">Take a staycation break this winter</p>
+                                <p class="card-text card-body">Deluxe suite, breakfast, afternoon tea and live entertainment from an assortment of great acts each evening.</p>
+                                <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 mx-auto col-lg-4">
-          <div class="card mt-4" style="width: 18rem;">
-            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-drawing-room.jpg"
-              alt="Johnstown Castle Hotel dining room">
-            <div class="card-body">
-              <h5 class="card-title">Best Available Rate</h5>
-              <p class="card-text card-subheading">Breakfast Included</p>
-              <p class="card-text card-body">Enjoy a luxurious overnight stay with breakfast included & full access to
-                our award
-                winning spa leisure
-                centre.</p>
-              <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small cyan darken-3">
+            <!-- Footer Elements -->
+            <div class="container">
+                <div class="footer-contact">
+                    <a href="contact.html">Contact us today</a>
+                    <p>The Johnstown Castle Hotel, Co. Wexfoxd, Y35 HP22, Ireland</p>
+                    <p>T:+353 (0)53 9184671|F:+353 (0)53 9184672|E:<a href="mailto:info@johnstowncastlehotel.com" class="email-contact">info@johnstowncastlehotel.com</a></p>
+                </div>
+
+                <!-- Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center sm-icons">
+                            <!-- Facebook -->
+                            <a class="fb-ic" href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic" href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x icon-bg-color"> </i>
+                            </a>
+                            <a class="li-ic" href="https://www.linkedin.com/" target="_blank">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic" href="https://www.twitter.com/" target="_blank">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
+                            </a>
+                            <!--Pinterest-->
+                            <a class="pin-ic" href="https://www.pinterest.com/" target="_blank">
+                                <i class="fab fa-pinterest fa-lg white-text fa-2x icon-bg-color"> </i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mx-auto col-lg-4">
-          <div class="card mt-4" style="width: 18rem;">
-            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-hotel-room.jpg"
-              alt="Johnstown Castle Hotel room">
-            <div class="card-body">
-              <h5 class="card-title">Weekend Getaway</h5>
-              <p class="card-text card-subheading">Enjoy a relaxing weekend</p>
-              <p class="card-text card-body">Unwind with our weekend package which provides full access to all our
-                premium
-                amenities including all meals.</p>
-              <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <hr id="footer-hr" />
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+                <a href="#"> Johnstowncastlehotel.com</a>
+                <p>Read our <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a></p>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mx-auto col-lg-4">
-          <div class="card mt-4 mb-4" style="width: 18rem;">
-            <img class="card-img-top d-none d-md-block d-lg-block" src="assets/images/johnstown-castle-snow.jpg"
-              alt="Johnstown Castle Hotel in snow">
-            <div class="card-body">
-              <h5 class="card-title">Winter Experience</h5>
-              <p class="card-text card-subheading">Take a staycation break this winter</p>
-              <p class="card-text card-body">Deluxe suite, breakfast, afternoon tea and live entertainment from an
-                assortment of
-                great acts each evening.</p>
-              <a href="#" class="btn btn-primary text-uppercase card-btn">Book Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 
-    </section>
-  </div>
-
-  <!-- Footer -->
-  <footer class="page-footer font-small cyan darken-3">
-
-    <!-- Footer Elements -->
-    <div class="container">
-      <div class="footer-contact">
-        <a href="contact.html">Contact us today</a>
-        <p>The Johnstown Castle Hotel, Co. Wexfoxd, Y35 HP22, Ireland</p>
-        <p>T:+353 (0)53 9184671|F:+353 (0)53 9184672|E:<a href="mailto:info@johnstowncastlehotel.com"
-            class="email-contact">info@johnstowncastlehotel.com</a></p>
-      </div>
-
-      <!-- Grid row-->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center sm-icons">
-
-            <!-- Facebook -->
-            <a class="fb-ic" href="https://www.facebook.com/" target="_blank">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic" href="https://www.instagram.com/" target="_blank">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x icon-bg-color"> </i>
-            </a>
-            <a class="li-ic" href="https://www.linkedin.com/" target="_blank">
-              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic" href="https://www.twitter.com/" target="_blank">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x icon-color"> </i>
-            </a>
-            <!--Pinterest-->
-            <a class="pin-ic" href="https://www.pinterest.com/" target="_blank">
-              <i class="fab fa-pinterest fa-lg white-text fa-2x icon-bg-color"> </i>
-            </a>
-          </div>
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row-->
-    </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <hr id="footer-hr">
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="#"> Johnstowncastlehotel.com</a>
-      <p>
-        Read our <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a>
-      </p>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
-
-</body>
-
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
 </html>
