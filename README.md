@@ -29,7 +29,7 @@
     * [Validation](#Validation)
     * [Manual Testing](#Manual-Testing)
 - [Deployment](#Deployment)
-- [Credits]
+- [Credits](#Credits)
 
 
 ## Project Overview
