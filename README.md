@@ -158,6 +158,8 @@ Using [W3C Markup Validation Service](https://validator.w3.org/) to validate the
 Using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS:
 - Error found concerning class navbar-icon, border-radius was set to none which wasn't recognized. This was removed and error was resolved.
 
+### Manual testing
+
 
 
 
