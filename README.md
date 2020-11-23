@@ -9,7 +9,7 @@
     * [Strategy](#Strategy)
     * [Business Objectives](#Business-Objectives)
     * [User Stories](#User-Stories)
-    * [Scope and Features](#Scope-and-Features)
+    * [Scope & Features](#Scope-&-Features)
         * [Features](#Features) 
             * [Home Page](#Home-Page)
             * [Gallery Page](#Gallery-Page)
@@ -58,7 +58,7 @@ This website would be used by prospective customers to learn more about the hote
 
 > As a prospective/paid customer, I want to contact the hotel as I have specific enquiries that I need answered.  
 
-### Scope/Features 
+### Scope & Features 
 
 #### Features
 
