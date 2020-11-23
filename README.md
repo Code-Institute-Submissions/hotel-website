@@ -23,7 +23,7 @@
 - [Technolgies and Libraries](#Technolgies-and-Libraries)
 - [Resources](#Resources)
     * [Design](#Design)
-    * [Information & Images](#Information-&-Images)
+    * [Information and Images](#Information-and-Images)
     * [Tools](#Tools)
 - [Testing](#Testing)
     * [Validation](#Validation)
@@ -134,7 +134,7 @@ colour is utilised in the photo gallery to contrast the brightness of the images
 
 This font was used for all elememts on the site. The font was chosen as it aligns with the luxurious aspirations of the hotel. 
 
-## Technolgies & Libraries
+## Technolgies and Libraries
 
 - !["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5) - [HTML 5](https://www.w3.org/TR/html52/)  is a markup language that was used displaying content of the site.
 - !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3) - [CSS](https://www.w3.org/standards/webdesign/htmlcss.html) is a style sheet language used for presenting/styling the content of the site. 
