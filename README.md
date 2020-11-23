@@ -4,6 +4,34 @@
 
 ## Table of Contents
 
+- [Project Overview](#Project-Overview)
+- [UX](#UX)
+    * [Strategy](#Strategy)
+    * [Business Objectives](#Business-Objectives)
+    * [User Stories](#User-Stories)
+    * [Scope/Features](#Scope/Features)
+        * [Features](#Features) 
+            * [Home Page](#Home-Page)
+            * [Gallery Page](#Gallery-Page)
+            * [Contact Page](#Contact-Page)
+    * [Structure](#Structure)
+    * [Skeleton](#Skeleton)
+        * [Responsive Design](#Responsive-Design)
+    * [Surface](#Surface)
+        * [Colour](#Colour)
+    * [Typography](#Typography)
+- [Technolgies & Libraries](#Technolgies-&-Libraries)
+- [Resources](#Resources)
+    * [Design](#Design)
+    * [Information & Images](#Information-&-Images)
+    * [Tools](#Tools)
+- [Testing](#Testing)
+    * [Validation](#Validation)
+    * [Manual Testing](#Manual-Testing)
+- [Deployment](#Deployment)
+- [Credits]
+
+
 ## Project Overview
 
 The Johnstown Castle Hotel website is for a fictitious gothic hotel. The Johnstown Castle is real castle located on an estate in county Wexford, Ireland. 
@@ -100,7 +128,7 @@ The site uses an assortment of colours. The predominant colour scheme is a combi
 the same colours are resued in different sections of the site with lighter or darker versions of the colours used for contrast purposes. On the Gallery page, a black background 
 colour is utilised in the photo gallery to contrast the brightness of the images. 
 
-### Typograpy 
+### Typography 
 
 [EB Garamond](https://fonts.google.com/specimen/EB+Garamond)
 
