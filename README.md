@@ -2,6 +2,8 @@
 
 ![Device Responsiveness](/assets/images/mockup-devices.PNG)
 
+---
+
 ## Table of Contents
 
 - [Project Overview](#Project-Overview)
@@ -30,6 +32,8 @@
     * [Manual Testing](#Manual-Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
+
+---
 
 
 ## Project Overview
