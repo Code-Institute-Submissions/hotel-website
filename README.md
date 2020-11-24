@@ -47,7 +47,7 @@ This website would be used by prospective customers to learn more about the hote
 ### Strategy 
 
 ### Business Objectives 
-- Drive sales and revenue for the hotel by providing a means of booking a stay and contacting sales team 
+- Drive sales and revenue for the hotel by providing a means of booking a stay and contacting the sales team 
 - Encourage prospective customers to visit and spend money at the hotel 
 - Provide paid customers with the requsite information for their stay 
 
@@ -104,16 +104,16 @@ I designed the general structure of the site using [Balsamiq](https://balsamiq.c
 - [Contact Page](/assets/images/contact-wireframe.png)
 
 All pages contain the same navigation menu and footer. The navigation menu is fixed to the top. 
-The Home page is deivided into three sections - Main Section (which includes a callout and booking form), About Section and Offers Section.
+The Home page is divided into three sections - Main Section (which includes a callout and a booking form), About Section and Offers Section.
 The Gallery page is divided into three sections - a Title Section, Image Gallery Section and Bottom Section. 
-The Contact page is divided into one main Contact section which was divided into two seperate sections of a Contact Form and Contact Section. 
+The Contact page is divided into one main Contact section which was divided into two seperate sections of a Contact Form and a Contact Section. 
 
 #### Responsive Design
 - On the Home page, for small screens the alert box is removed. In the Offers Section, images are removed from the cards which are stacked vertically. 
-On medium screens, everything is displayed as in large except in Offers Section two of the cards are stacked vertically on top of one card.
+On medium screens, everything is displayed as on the large screen with the exception of the Offers Section where two of the cards are stacked vertically on top of one card.
 - On the Gallery page, on large screens there is an image gallery of four columns in three rows. On medium screens there are two columns in six rows. 
-on small screens there are one columns with 12 rows.
-- On the Contact page, for small screens the Contact section is removed. Medium and large screens dispaly same information.
+On small screens there is one column with 12 rows.
+- On the Contact page, for small screens the Contact section is removed. Medium and large screens display the same information.
 
 ### Surface
 
@@ -136,27 +136,27 @@ colour is utilised in the photo gallery to contrast the brightness of the images
 
 [EB Garamond](https://fonts.google.com/specimen/EB+Garamond)
 
-This font was used for all elememts on the site. The font was chosen as it aligns with the luxurious aspirations of the hotel. 
+This font was used for all elements on the site. The font was chosen as it aligns with the luxurious aspirations of the hotel. 
 
 ## Technolgies and Libraries
 
 - !["HTML5 Badge"](https://img.shields.io/badge/HTML-5-E34F26?logo=html5) - [HTML 5](https://www.w3.org/TR/html52/)  is a markup language that was used displaying content of the site.
 - !["CSS Badge"](https://img.shields.io/badge/CSS-3-1572B6?logo=css3) - [CSS](https://www.w3.org/standards/webdesign/htmlcss.html) is a style sheet language used for presenting/styling the content of the site. 
 - !["Bootstrap Badge"](https://img.shields.io/badge/Bootstrap-4-563D7C?logo=bootstrap) - [Bootstrap](https://getbootstrap.com/) is an open-source framework aimed at responsive, mobile-first front-end web development. This was used throughout the site to create the overall structure.
-- [Google Fonts](https://fonts.google.com/) - Google Fonts is a library of free licensed font families that used to generate to the EB Garamond Font
-- !["Fontawesome Badge"](https://img.shields.io/badge/Font_Awesome-5.14-339AF0?logo=font-awesome) - [Font Awesome](https://fontawesome.com/) is a font and icon toolkit that was used to generate the icons use throughout the site. 
+- [Google Fonts](https://fonts.google.com/) - Google Fonts is a library of free licensed font families that was used to import the EB Garamond Font
+- !["Fontawesome Badge"](https://img.shields.io/badge/Font_Awesome-5.14-339AF0?logo=font-awesome) - [Font Awesome](https://fontawesome.com/) is a font and icon toolkit that was used to generate the icons used throughout the site. 
 - !["Git Badge"](https://img.shields.io/badge/Git-000?logo=git) - [Git][https://git-scm.com/] is an open source distributed version control system that was used to track any changes made to the source code. 
-- !["Github Badge"](https://img.shields.io/badge/Github-000?logo=github) - [Github](https://github.com/) is a platform for hosting software development and version control using Git. This was used to host and deploy this site. 
+- !["Github Badge"](https://img.shields.io/badge/Github-000?logo=github) - [Github](https://github.com/) is a platform for hosting software development and version control using Git. This was used to host and deploy this site through Github pages. 
 
 ## Resources
 
 ### Design
-The design features and inspiration for this website was primarily from these two websites:
+The design features and inspiration for this website were primarily from these two websites:
 - [The Johnstown Estate](https://www.thejohnstownestate.com/)
 - [The Witchery](https://www.thewitchery.com/)
 
 ### Information and Images
-Information and images about the real Johnstown Castle was accesed from these sources:
+Information and images about the real Johnstown Castle was accessed from these sources:
 - [The Johnstown Castle](https://johnstowncastle.ie/)
 - [Wikipedia](https://en.wikipedia.org/wiki/Johnstown_Castle)
 - [Pat Sheridan Photography](https://patsheridan.files.wordpress.com/2011/10/johnstown-castle-wexford-copyvv.jpg) 
@@ -183,7 +183,7 @@ The site was built using [VS Code](https://code.visualstudio.com/), the site fea
 
 ### Validation
 Using [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML on each page: 
-- On all the pages there was an error for a diplicate attribute which I removed. 
+- On all the pages there was an error for a duplicate attribute which I removed. 
 - On the Home page , there was an error for a bad value for attribute type which I changed to type "submit".  
 - On Contact page there was an error for a smaller element which I removed. There was also an error for attribute aria-describedby which I also removed. 
 

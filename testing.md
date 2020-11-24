@@ -13,14 +13,14 @@
 | Component | Function | Outcome | Fix |
 | -------------- | ------------------- | ---------------- | --- |
 | (All pages) Navbar logo link | Take user to the Home Page | Success | N/A |
-| (All pages) Navbar page links (Home, Gallery etc.) | Take user to the respectve page  | Success | N/A |
-| (All pages) Footer Contact link | Take user to the Conact page  | Success | N/A |
+| (All pages) Navbar page links (Home, Gallery etc.) | Take user to the respective page  | Success | N/A |
+| (All pages) Footer Contact link | Take user to the Contact page  | Success | N/A |
 | (All pages) Footer Email link | Open default email client of user  | Success | N/A |
 | (All pages) Footer Social Media icon links | Open respective website in new tab  | Success | N/A |
 | (All pages) Footer URL, Privacy Policy, Terms & Conditions Links  | Direct to Home page   | Success | N/A |
 | (Home page) Jumbotron Offers link  | Take user to the Offers section on Home Page | Success | N/A |
 | (Home page) Alert box link  | Take user to the Contact page | Success | N/A |
-| (Home page) About Section "located" link | Take user to the Google maps location of Hotel in new tab | Success | N/A |
+| (Home page) About Section "located" link | Take user to the Google maps location of Hotel in a new tab | Success | N/A |
 | (Home page) About Section "bedrooms, conference centre, wedding venue,  Spa Leisure Centre, The Moat" | Are fictional links and keep user on About Section| Success | N/A |
 | (Home page) About Section "Special Offers" link | Take User to Offers section on Home Page | Success | N/A |
 | (Contact page) Contact Info Section Address link | Take user to the Google maps location of Hotel in new tab | Success | N/A |
@@ -48,18 +48,18 @@ I conducted usability testing based on the goals of my potential users as outlin
 
 When the user visits the site they are immediately presented with a simple to use booking form. 
 
-> As a prospective customer, I want to learn more (what is looks like, services etc.) about the hotel in general so I can decide whether to book a stay.
+> As a prospective customer, I want to learn more (what it looks like, services etc.) about the hotel in general so I can decide whether to book a stay.
 
-When the user visits the site they are immediately presented with information in callout section describing the hotel. The main background image shows what the hotel looks like. 
+When the user visits the site they are immediately presented with information in the callout section describing the hotel. The main background image shows what the hotel looks like. 
 When the user scrolls down there is an About section providing information about the hotel and what services are available. 
 If the user wishes to view more images of the hotel, the Gallery page (which is easily navigable from the Home page ) displays multiple images.
 
 > As a prospective customer, I want to learn about the offers available at the hotel so I can decide whether to book a stay. 
 
 When the user visits the site there is a link in the callout section to the Offers section. In the offers section the user is presented
-with three offers. Each offer has a description and a corresopnding booking button which the user can use to book an offer. 
+with three offers. Each offer has a description and a corresponding booking button which the user can use to book an offer. 
 
-> As a paid customer, I want to learn more (what is looks like, services etc.) about the hotel in general to ehance my stay.
+> As a paid customer, I want to learn more (what it looks like, services etc.) about the hotel in general to ehance my stay.
 
 When the user visits the site they are immediately presented with information in callout section describing the hotel. The main background image shows what the hotel looks like. 
 When the user scrolls down there is an About section providing information about the hotel and what services are available. 
